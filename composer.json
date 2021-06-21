@@ -1,0 +1,12 @@
+{
+    "name": "nadir/helper-headless-plugin",
+    "require": {
+        "stripe/stripe-php": "^7.85"
+    },
+    "authors": [
+        {
+            "name": "Nadir Seghir",
+            "email": "nadir.seghir@gmail.com"
+        }
+    ]
+}
