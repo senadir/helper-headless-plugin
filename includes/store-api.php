@@ -5,7 +5,7 @@ use Automattic\WooCommerce\Blocks\Domain\Services\ExtendRestApi;
 use Automattic\WooCommerce\Blocks\StoreApi\Schemas\CheckoutSchema;
 
 // Disabled nonces
-add_filter( 'woocommerce_store_api_disable_nonce_check', '__return_true' );
+//add_filter( 'woocommerce_store_api_disable_nonce_check', '__return_true' );
 
 add_action('woocommerce_blocks_loaded', function() {
  // ExtendRestApi is stored in the container as a shared instance between the API and consumers.

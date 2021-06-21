@@ -5,7 +5,8 @@ function hhp_disable_cors() {
 		header( 'Access-Control-Allow-Origin: ' . DETACHED_STORE_DOMAIN );
 		header( 'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTION' );
 		header( 'Access-Control-Allow-Credentials: true' );
-		header( 'Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept' );
+		header( 'Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, X-WC-Store-API-Nonce' );
+		header( 'Access-Control-Expose-Headers: X-WC-Store-API-Nonce, X-WC-Store-API-Nonce-Timestamp');
 
 		return $value;
 	} );
